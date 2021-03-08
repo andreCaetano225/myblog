@@ -1,0 +1,44 @@
+.videos {
+  margin-top: -70px;
+  object-fit: cover;
+  background: #000;
+  height: 600px;
+  width: 100%;
+}
+.p-vi {
+  color: #15cdfc;
+  margin-top: 50px;
+  margin-left: 15px;
+}
+
+.video1 {
+  margin-top: 50px;
+  margin-left: 80px;
+  width: 510px;
+  height: 280px;
+}
+
+.video2 {
+  margin-top: 30px;
+  margin-left: 50px;
+  width: 510px;
+  height: 280px;
+}
+
+@media screen and (max-width: 768px) {
+  .videos {
+    height: 750px;
+  }
+  .p-vi {
+    font-size: 14px;
+  }
+  .video1 {
+    width: 310px;
+    height: 190px;
+  }
+  .video2 {
+    width: 310px;
+    height: 190px;
+    margin-left: 80px;
+  }
+}

@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap");
+
+.insta {
+  height: 30px;
+  margin-right: 50px;
+}
+
+.wpp {
+  height: 30px;
+}
+.logo {
+  font-family: "Kalam", cursive;
+  font-size: 40px;
+  color: #15cdfc;
+}
+.icons {
+  border-radius: 9px;
+  padding: 0px 0px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+.ham {
+  display: none;
+  float: right;
+  color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .icons {
+    margin-left: 50px;
+  }
+  .logo {
+    font-family: "Kalam", cursive;
+    font-size: 35px;
+  }
+  .ham {
+    display: none;
+    position: absolute;
+    top: 1;
+    right: 0%;
+    transform: translate (-100%, 75%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+}

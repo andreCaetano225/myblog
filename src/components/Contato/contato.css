@@ -1,0 +1,25 @@
+.contato {
+  margin-top: -70px;
+  object-fit: cover;
+  background: #000;
+  height: 450px;
+  width: 100%;
+}
+
+.p-cont {
+  text-align: center;
+  color: #15cdfc;
+  margin-top: 90px;
+}
+.p-cont1 {
+  text-align: center;
+  color: #15cdfc;
+}
+.a-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #15cdfc;
+  text-decoration: none;
+}
